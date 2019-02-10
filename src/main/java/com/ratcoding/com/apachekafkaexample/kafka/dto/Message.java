@@ -1,6 +1,8 @@
 package com.ratcoding.com.apachekafkaexample.kafka.dto;
 
-public class Message {
+import java.io.Serializable;
+
+public class Message implements Serializable {
 
     private String topic;
     private Long value;
